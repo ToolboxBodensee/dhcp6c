@@ -21,6 +21,33 @@ It is based on a patched version of WIDE-DHCPv6 maintained by hrs@FreeBSD.org.
 - "-n" flag to prevent address release from being sent to the DHCP server
   upon restart.
 
+ Installation Instructions:
+--------------------------
+### Requirements:
+You need the following Packages installed:
+```bash
+sudo apt install gcc flex libfl-dev bison
+```
+
+### Installation
+
+To install the packages first you need to configure:
+```bash
+./configure
+```
+
+Maybe you have to set custom CFLAGS:
+```bash
+./configure CFLAGS="-D _GNU_SOURCE"
+```
+
+Next you can execute the make and sudo make install
+```
+make
+make install
+```
+
+
  Original README:
 -------------------
 ```txt
