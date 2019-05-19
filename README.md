@@ -47,6 +47,17 @@ make
 make install
 ```
 
+### Usage
+For the configuration you can use the provided ``dhcp6c.conf.sample`` file.
+
+To test your config, your command may look like this:
+```bash
+/usr/local/sbin/dhcp6c -c /etc/wide-dhcpv6/dhcp6c.conf ppp0 -Df
+# /etc/wide-dhcpv6/dhcp6c.conf is your local configuration
+# ppp0 is your interface you want to run the client
+# -Df are parameter for console output
+# Use --help for additional information!
+```
 
  Original README:
 -------------------
