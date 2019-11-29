@@ -1,5 +1,8 @@
  WIDE DHCPv6 client
 =============================
+
+**Entwicklung nur auf [GitLab](https://gitlab.com/ToolboxBodensee/toolbox-infrastructure/wide-dhcpv6-client). Auf GitHub befindet sich lediglich ein Mirror**
+
 *This is the WIDE-DHCPv6 client. Orginally maintained by the OPNsense project.*
 
  Improvements include the following:
